@@ -1,0 +1,9 @@
+.header h1 {
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  font-family: "Courier New";
+  font-size: 4rem;
+  padding: 50;
+  margin: 100;
+}
