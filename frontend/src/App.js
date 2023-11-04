@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header.js";
+import earth from "./images/Earth.jpg";
 
 function App() {
   const printWeatherData = () => {
@@ -10,7 +11,7 @@ function App() {
       .catch((error) => console.log("ERROR"));
   };
   return (
-    <div>
+    <div class="context">
       <Header />
       <button onClick={printWeatherData}>Print Weather</button>
     </div>
