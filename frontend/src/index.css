@@ -1,8 +1,3 @@
-div {
-  background-color: skyblue;
-  height: 50vw;
-}
-
 button {
   background-color: initial;
   background-image: linear-gradient(-180deg, #00D775, #00BD68);
@@ -32,4 +27,44 @@ button {
 
 button:hover {
   background: #00bd68;
+}
+
+.box1 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+  padding: 15px;
+  margin: 0 600px;
+  border-radius: 10px;
+}
+
+.box1 button {
+  display: block;
+  margin: 10px auto;
+}
+
+.box1 h3 {
+  display: block;
+  margin: 10px auto;
+}
+
+.box1 input {
+  display: block;
+  margin: auto;
+}
+
+.box2 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+  padding: 15px;
+  margin: 0 600px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+body {
+  background-image: "/images/sky.jpg"
 }

@@ -1,7 +1,7 @@
 .header h1 {
   background-color: lightgray;
   color: black;
-  position: absolute;
+  position: relative;
   text-align: center;
   font-family: "Courier New";
   font-size: 4rem;
